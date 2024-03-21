@@ -1,6 +1,6 @@
-def printDicc (dicc):
+def printDicc(dicc):
     for i in dicc:
-        print(f'Verice: {i}')
+        print(f'Vertice: {i}')
         for j in dicc[i]:
-            print(f'\tRel: {j} \n\t\t peso:{dicc[i][j]}')
-    return 0
+            print(F'\tRel: {j} \n\t\tPeso: {dicc[i][j]}')
+    return ''
